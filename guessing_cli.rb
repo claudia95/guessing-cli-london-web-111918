@@ -7,7 +7,7 @@ def run_guessing_game
     if user_guess == computer_number
       puts "You guessed the correct number"
     else
-      puts "The computer guesed #{computer_number}"
+      puts "The computer guessed #{computer_number}"
     end
     puts "Guess a number between 1 and 6."
     user_guess = gets.chomp
